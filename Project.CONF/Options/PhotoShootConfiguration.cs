@@ -11,6 +11,8 @@ namespace Project.CONF.Options
     {
         public PhotoShootConfiguration()
         {
+            ToTable("Çekimler");
+
             // Türkçe sütun isimlendirmeleri
             Property(x => x.ShootDate).HasColumnName("Çekim Tarihi");
             Property(x => x.ShootTime).HasColumnName("Çekim Saati");

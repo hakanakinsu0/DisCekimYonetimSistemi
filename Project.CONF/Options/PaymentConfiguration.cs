@@ -11,6 +11,8 @@ namespace Project.CONF.Options
     {
         public PaymentConfiguration()
         {
+            ToTable("Ödemeler");
+
             // Türkçe sütun isimlendirmeleri
             Property(x => x.TotalPrice).HasColumnName("Toplam Tutar");
             Property(x => x.PaidAmount).HasColumnName("Ödenen Tutar");

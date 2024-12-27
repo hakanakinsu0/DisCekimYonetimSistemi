@@ -11,6 +11,8 @@ namespace Project.CONF.Options
     {
         public PhotographerConfiguration()
         {
+            ToTable("Fotoğrafçılar");
+
             // Türkçe sütun isimlendirmeleri
             Property(x => x.FirstName).HasColumnName("Ad");
             Property(x => x.LastName).HasColumnName("Soyad");

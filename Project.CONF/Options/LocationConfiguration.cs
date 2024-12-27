@@ -11,6 +11,8 @@ namespace Project.CONF.Options
     {
         public LocationConfiguration()
         {
+            ToTable("Çekim Alanları");
+
             // Türkçe sütun isimlendirmeleri
             Property(x => x.Name).HasColumnName("Mekan Adı");
             Property(x => x.Address).HasColumnName("Adres");

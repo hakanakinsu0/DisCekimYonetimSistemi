@@ -11,6 +11,8 @@ namespace Project.CONF.Options
     {
         public CustomerConfiguration()
         {
+            ToTable("Müşteriler");
+
             // Türkçe sütun isimlendirmeleri
             Property(x => x.FirstName).HasColumnName("Ad");
             Property(x => x.LastName).HasColumnName("Soyad");
