@@ -41,6 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\AlbumCategory.cs" />
+    <Compile Include="Enums\DataStatus.cs" />
+    <Compile Include="Enums\PaymentMethod.cs" />
+    <Compile Include="Enums\PaymentStatus.cs" />
+    <Compile Include="Enums\PhotoShootStatus.cs" />
+    <Compile Include="Models\Album.cs" />
+    <Compile Include="Models\BaseEntity.cs" />
+    <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Location.cs" />
+    <Compile Include="Models\Payments.cs" />
+    <Compile Include="Models\Photographer.cs" />
+    <Compile Include="Models\PhotoShoot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
