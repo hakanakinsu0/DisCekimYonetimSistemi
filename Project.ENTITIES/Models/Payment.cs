@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Project.ENTITIES.Models
 {
-    public class Payments : BaseEntity
+    public class Payment : BaseEntity
     {
         public decimal TotalPrice { get; set; }
         public decimal PaidAmount { get; set; }

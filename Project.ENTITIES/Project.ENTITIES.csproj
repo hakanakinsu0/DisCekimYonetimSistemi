@@ -50,7 +50,7 @@
     <Compile Include="Models\BaseEntity.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Location.cs" />
-    <Compile Include="Models\Payments.cs" />
+    <Compile Include="Models\Payment.cs" />
     <Compile Include="Models\Photographer.cs" />
     <Compile Include="Models\PhotoShoot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

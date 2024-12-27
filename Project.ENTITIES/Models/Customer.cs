@@ -16,7 +16,7 @@ namespace Project.ENTITIES.Models
         public DateTime WeddingDate { get; set; }
 
         //Relational Properties
-        public virtual List<PhotoShoot> PhotoShoots { get; set; }
-        public virtual List<Album> Albums { get; set; }
+        public virtual List<PhotoShoot> PhotoShoots { get; set; } //1 customer n photoshoot, 1 photoshoot 1 customer
+        public virtual List<Album> Albums { get; set; } // 1 album 1 customer, 1 customer n album
     }
 }

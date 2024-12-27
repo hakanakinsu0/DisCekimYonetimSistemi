@@ -19,9 +19,10 @@ namespace Project.ENTITIES.Models
 
         //Foreign Keys
         public int CustomerId { get; set; }
+        public int PhotoShootId { get; set; }
 
         //Relational Properties
-        public virtual PhotoShoot PhotoShoot { get; set; }
-        public virtual Customer Customer { get; set; }
+        public virtual PhotoShoot PhotoShoot { get; set; } // 1 photosoot n album, 1 album 1 photosoot
+        public virtual Customer Customer { get; set; } // 1 album 1 customer, 1 customer n album
     }
 }

@@ -51,6 +51,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Options\AlbumConfiguration.cs" />
+    <Compile Include="Options\BaseConfiguration.cs" />
+    <Compile Include="Options\LocationConfiguration.cs" />
+    <Compile Include="Options\CustomerConfiguration.cs" />
+    <Compile Include="Options\PaymentConfiguration.cs" />
+    <Compile Include="Options\PhotographerConfiguration.cs" />
+    <Compile Include="Options\PhotoShootConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
