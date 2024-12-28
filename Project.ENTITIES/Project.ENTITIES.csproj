@@ -41,7 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\AlbumCanvasSize.cs" />
     <Compile Include="Enums\AlbumCategory.cs" />
+    <Compile Include="Enums\AlbumSize.cs" />
     <Compile Include="Enums\DataStatus.cs" />
     <Compile Include="Enums\PaymentMethod.cs" />
     <Compile Include="Enums\PaymentStatus.cs" />

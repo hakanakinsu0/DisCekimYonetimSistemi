@@ -114,5 +114,10 @@ namespace Project.BLL.DesingPatterns.GenericRepository.BaseRep
         {
             _db.SaveChanges();
         }
+
+        public bool CheckExists(Expression<Func<T, bool>> predicate)
+        {
+            return _table.Any(predicate);
+        }
     }
 }

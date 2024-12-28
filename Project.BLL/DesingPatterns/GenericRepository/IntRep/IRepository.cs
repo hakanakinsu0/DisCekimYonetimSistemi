@@ -43,5 +43,7 @@ namespace Project.BLL.DesingPatterns.GenericRepository.IntRep
 
         // Güncellenmiş kayıtları getirme
         List<T> GetUpdated();
+        bool CheckExists(Expression<Func<T, bool>> predicate);
+
     }
 }

@@ -10,5 +10,9 @@ namespace Project.BLL.DesingPatterns.GenericRepository.ConcRep
 {
     public class LocationRepository : BaseRepository<Location>
     {
+        public bool IsLocationExists(string locationName)
+        {
+            return CheckExists(x => x.Name.ToLower() == locationName.ToLower());
+        }
     }
 }
